@@ -1,0 +1,20 @@
+
+CADRSPACE_BOT
+-------------
+Telegram bot that shows [CADR](https://cadrspace.ru) hackspace status
+
+Telegram handle: [@cadrspace_bot](telegram.me/cadrspace_bot)
+
+Usage
+=====
+
+* /help - Show help text
+* /status - Show current status OPEN/CLOSED
+
+Roadmap
+=======
+
+* Subscription on status changes
+* Schedule command
+* Request presense command
+* Integration with [hackdepot](https://github.com/cadrspace/hackdepot)
