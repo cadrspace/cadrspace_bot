@@ -11,6 +11,19 @@ Usage
 * /help - Show help text
 * /status - Show current status OPEN/CLOSED
 
+
+Setup
+=====
+
+Move config.example.js to config.$NODE_ENV.js.
+Paste valid Telegram token into config then launch.
+
+```
+$ export NODE_ENV=production
+$ npm start
+```
+
+
 Roadmap
 =======
 
