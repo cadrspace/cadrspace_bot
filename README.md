@@ -1,28 +1,28 @@
 
 CADRSPACE_BOT
 -------------
-Telegram bot that shows [CADR](https://cadrspace.ru) hackspace status
+
+Telegram bot that shows [CADR](https://cadrspace.ru) hackerspace
+status.
 
 Telegram handle: [@cadrspace_bot](telegram.me/cadrspace_bot)
 
 Usage
 =====
 
-* /help - Show help text
-* /status - Show current status OPEN/CLOSED
-
+* /help - Show the help text
+* /status - Show current status (OPEN/CLOSED)
 
 Setup
 =====
 
-Move config.example.js to config.$NODE_ENV.js.
-Paste valid Telegram token into config then launch.
+Move `config.example.js` to `config.$NODE_ENV.js`.  Paste a valid
+Telegram token into the config then launch the application:
 
 ```
 $ export NODE_ENV=production
 $ npm start
 ```
-
 
 Roadmap
 =======
@@ -35,4 +35,5 @@ Roadmap
 # Change Log
 ## [0.0.1] - 2016-10-29
 ### Added
-- /camera command shows camera image from hackspace. If image is unavailable show kittens
+- /camera command shows the camera image from hackspace. If image is
+  unavailable show kittens.
