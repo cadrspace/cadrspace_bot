@@ -12,6 +12,8 @@ Usage
 
 * /help - Show the help text
 * /status - Show current status (OPEN/CLOSED)
+* /camera - Show the camera image from hackspace. If image is
+  unavailable show kittens.
 
 Setup
 =====
